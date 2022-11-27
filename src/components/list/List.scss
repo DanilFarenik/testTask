@@ -1,0 +1,24 @@
+@import "../../style/index.scss";
+
+$amountHeight:25px;
+
+.list{
+  grid-area: list;
+
+  &__people{
+    height: calc($mainHeight - $amountHeight - $borderSize * 4 - $containerPadding * 3);
+
+    list-style-type: none;
+
+    overflow-y: scroll;
+
+    @include container;
+  }
+
+  &__amount{
+    height: $amountHeight;
+
+    @include container;
+    border-top: none;
+  }
+}

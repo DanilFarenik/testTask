@@ -1,0 +1,8 @@
+@import "./const.scss";
+
+
+@mixin container {
+  padding: $containerPadding;
+
+  border: $borderSize solid $borderColor; 
+}

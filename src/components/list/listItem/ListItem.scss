@@ -1,0 +1,21 @@
+@import "../../../style/index.scss";
+
+.list-item{
+  display: flex;
+  align-items: center;
+  margin: 10px;
+
+  border-radius: 15px;
+  
+  @include container;
+
+  &__icon{
+    width: 50px;
+
+    border-radius: 50%;
+  }
+
+  &__name{
+    margin: 10px;
+  }
+}

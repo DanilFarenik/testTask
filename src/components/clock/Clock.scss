@@ -1,0 +1,7 @@
+@import "../../style/index.scss";
+
+.date{
+  grid-area: clock;
+
+  @include container;
+}

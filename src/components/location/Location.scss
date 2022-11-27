@@ -1,0 +1,7 @@
+@import "../../style/index.scss";
+
+.location{
+  grid-area: location;
+
+  @include container;
+}
